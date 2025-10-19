@@ -1,0 +1,11 @@
+/* styles.css */
+body { font-family: Arial, sans-serif; margin:0; background:#f7f8fb; color:#111;}
+header { background:#2b4eff; color:#fff; padding:20px; text-align:center;}
+nav { display:flex; justify-content:center; gap:18px; padding:10px; background:#1a2ca1;}
+nav a { color:#fff; text-decoration:none; font-weight:600;}
+main { padding:20px; max-width:1000px; margin:0 auto;}
+section { background:#fff; padding:15px; margin:12px 0; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.05);}
+footer { text-align:center; padding:12px; background:#2b4eff; color:#fff;}
+@media (max-width:600px){
+  nav { flex-direction:column; gap:8px;}
+}
